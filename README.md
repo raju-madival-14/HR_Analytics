@@ -40,7 +40,7 @@ Custom visuals for HR-specific analytics
     Employee growth = [Active Employees]-[PY Hires]
     Employee growth % = DIVIDE([PY Hires],[Employee growth],0)
 
-4.Diversity Ratio – Gender diversity across departments.
+4.Diversity Ratio – Gender diversity.
 
     Female Employees = CALCULATE([Total Employees],Employee_details[Gender]="female")
 
@@ -50,7 +50,7 @@ Custom visuals for HR-specific analytics
 
     Average Salary = AVERAGE(Salary[Total_Salary])
 
-6.LY hires and PY Hires
+6.LY Hires and PY Hires
     
     LY Hires = TOTALYTD(
           CALCULATE(
